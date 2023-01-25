@@ -9,6 +9,8 @@ import Foundation
 import RealmSwift
 
 class Migrator {
+    let myRealmQueue = DispatchQueue(label: "realmQueue", qos: .background)
+    
     init() {
         updateSchema()
     }
@@ -24,6 +26,12 @@ class Migrator {
         }
         
         Realm.Configuration.defaultConfiguration = config
-        let _ = try! Realm()
+        myRealmQueue.async {
+            do {
+                let _ = try Realm()
+            } catch {
+                print(error)
+            }
+        }
     }
 }

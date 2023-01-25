@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    let myRealmQueue = DispatchQueue(label: "realmQueue", qos: .background)
     @State var vm = NetworkingManager()
     var body: some View {
         VStack {
@@ -18,7 +19,9 @@ struct ContentView: View {
         }
         .padding()
         .onAppear {
-            vm.getAPIData()
+            myRealmQueue.async {
+                vm.getAPIData()
+            }
         }
     }
 }

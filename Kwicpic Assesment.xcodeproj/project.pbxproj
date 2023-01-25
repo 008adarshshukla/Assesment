@@ -11,7 +11,6 @@
 		0266CF97297CF4DF0094A222 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0266CF96297CF4DF0094A222 /* ContentView.swift */; };
 		0266CF99297CF4E00094A222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0266CF98297CF4E00094A222 /* Assets.xcassets */; };
 		0266CF9C297CF4E00094A222 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0266CF9B297CF4E00094A222 /* Preview Assets.xcassets */; };
-		0266CFA3297CF5200094A222 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0266CFA2297CF5200094A222 /* NetworkingManager.swift */; };
 		0266CFC1297D14010094A222 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 0266CFC0297D14010094A222 /* Realm */; };
 		0266CFC3297D14010094A222 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0266CFC2297D14010094A222 /* RealmSwift */; };
 		0266CFC5297D2E7D0094A222 /* AutoDownloadList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0266CFC4297D2E7D0094A222 /* AutoDownloadList.swift */; };
@@ -19,6 +18,7 @@
 		0266CFCC297E8C5A0094A222 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0266CFCB297E8C5A0094A222 /* ImageModel.swift */; };
 		0266CFCE297F93130094A222 /* DownloadedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0266CFCD297F93120094A222 /* DownloadedImages.swift */; };
 		0266CFD1297FB1C50094A222 /* Migrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0266CFD0297FB1C50094A222 /* Migrator.swift */; };
+		02C5B4062980EE000014D09D /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C5B4052980EE000014D09D /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +27,13 @@
 		0266CF96297CF4DF0094A222 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0266CF98297CF4E00094A222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0266CF9B297CF4E00094A222 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0266CFA2297CF5200094A222 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		0266CFBE297CFEF40094A222 /* Kwicpic-Assesment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Kwicpic-Assesment-Info.plist"; sourceTree = SOURCE_ROOT; };
 		0266CFC4297D2E7D0094A222 /* AutoDownloadList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoDownloadList.swift; sourceTree = "<group>"; };
 		0266CFC9297E8BB50094A222 /* UserModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModels.swift; sourceTree = "<group>"; };
 		0266CFCB297E8C5A0094A222 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
 		0266CFCD297F93120094A222 /* DownloadedImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadedImages.swift; sourceTree = "<group>"; };
 		0266CFD0297FB1C50094A222 /* Migrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migrator.swift; sourceTree = "<group>"; };
+		02C5B4052980EE000014D09D /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +73,9 @@
 				0266CFBE297CFEF40094A222 /* Kwicpic-Assesment-Info.plist */,
 				0266CF94297CF4DF0094A222 /* Kwicpic_AssesmentApp.swift */,
 				0266CF96297CF4DF0094A222 /* ContentView.swift */,
-				0266CFA2297CF5200094A222 /* NetworkingManager.swift */,
 				0266CF98297CF4E00094A222 /* Assets.xcassets */,
 				0266CF9A297CF4E00094A222 /* Preview Content */,
+				02C5B4052980EE000014D09D /* NetworkingManager.swift */,
 			);
 			path = "Kwicpic Assesment";
 			sourceTree = "<group>";
@@ -185,11 +185,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0266CFCE297F93130094A222 /* DownloadedImages.swift in Sources */,
-				0266CFA3297CF5200094A222 /* NetworkingManager.swift in Sources */,
 				0266CFCC297E8C5A0094A222 /* ImageModel.swift in Sources */,
 				0266CFCA297E8BB50094A222 /* UserModels.swift in Sources */,
 				0266CF97297CF4DF0094A222 /* ContentView.swift in Sources */,
 				0266CFC5297D2E7D0094A222 /* AutoDownloadList.swift in Sources */,
+				02C5B4062980EE000014D09D /* NetworkingManager.swift in Sources */,
 				0266CFD1297FB1C50094A222 /* Migrator.swift in Sources */,
 				0266CF95297CF4DF0094A222 /* Kwicpic_AssesmentApp.swift in Sources */,
 			);
